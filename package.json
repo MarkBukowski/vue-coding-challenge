@@ -1,14 +1,37 @@
 {
-  "name": "react-coding-challenge",
+  "name": "vue-coding-challenge",
   "version": "1.0.0",
   "description": "A package containing a simple dummy book API, which should be used in the challenge",
-  "scripts": {
-    "start": "json-server --port 3010 --watch api.json"
-  },
-  "keywords": ["react challenge", "tryouts", "react developer", "hiring"],
+  "keywords": [
+    "vue challenge",
+    "tryouts",
+    "vue developer",
+    "hiring"
+  ],
   "author": "Adapt A/S",
   "license": "ISC",
+  "scripts": {
+    "start": "json-server --port 3010 --watch api.json",
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2"
+  },
   "devDependencies": {
-    "json-server": "0.10.1"
-  }
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "json-server": "^0.17.1",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
 }

@@ -1,10 +1,28 @@
-# Adapt React Coding Challenge
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
+
+# Adapt Vue Coding Challenge
 
 Seems like you're trying out for a position at
 [Adapt](https://adapt.dk/en) or you've found this and would like to
 apply.  Fork this repo and go at it ;)
 
-Your goal is to set up a React application, where users will be able to
+Your goal is to set up a Vue application, where users will be able to
 edit book info (and create new books, if you have enough time to
 implement it). Once you are done with the challenge, please fire up a
 Pull Request and we will get in touch.
@@ -29,8 +47,8 @@ to date. The form should be split into three steps:
     picked).
 
 *   You can use whatever libraries, task runners and build processes you
-    like. React and plain JavaScript are the only requirements (ES6
-    encouraged, but no TypeScript, CoffeeScript, etc). Redux is strongly
+    like. Vue and plain JavaScript are the only requirements (ES6
+    encouraged, but no TypeScript, CoffeeScript, etc). Redux (Vuex) is strongly
     encouraged if you see a need for it.
 
 ### Suggested order of completion
